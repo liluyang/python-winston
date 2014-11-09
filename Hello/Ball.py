@@ -31,7 +31,7 @@ tk.wm_attributes("-topmost", 1)
 canvas = Canvas(tk, width=400, height=400)
 canvas.pack()
 tk.update()
-ball = Ball(canvas, 'black')
+ball = Ball(canvas, 'gold')
 
 while 1:
   ball.draw()
